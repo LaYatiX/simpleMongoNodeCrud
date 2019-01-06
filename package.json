@@ -1,0 +1,38 @@
+{
+  "name": "simple-mongo-node-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect": "^3.6.6",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.12",
+    "mongose": "^0.0.2-security",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaYatiX/simpleMongoNodeCrud.git"
+  },
+  "keywords": [
+    "Mongo",
+    "CRUD",
+    "Node.js"
+  ],
+  "author": "Grzegorz Piwosz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LaYatiX/simpleMongoNodeCrud/issues"
+  },
+  "homepage": "https://github.com/LaYatiX/simpleMongoNodeCrud#readme"
+}
